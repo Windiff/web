@@ -15,7 +15,7 @@ interface IDescriptor {
     type: IDescriptorItem[];
 }
 
-const URL_PREFIX = `https://raw.githubusercontent.com/ntdiff/headers/master`;
+const URL_PREFIX = `https://raw.githubusercontent.com/Windiff/headers/master`;
 
 class AppStore {
     public constructor() {

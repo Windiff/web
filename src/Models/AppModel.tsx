@@ -1,15 +1,15 @@
 import * as _ from 'lodash';
 import { observable, computed } from 'mobx';
 
-const VERSION_LEFT_DEFAULT      = 'Win7/x64/System32';
+const VERSION_LEFT_DEFAULT      = 'Win10_19041_20H2/x64/System32';
 const FILENAME_LEFT_DEFAULT     = 'ntoskrnl.exe';
 const TYPE_LEFT_DEFAULT         = 'Standalone/_KPCR';
 
-const VERSION_RIGHT_DEFAULT     = 'Win10_1803_RS4/x64/System32';
+const VERSION_RIGHT_DEFAULT     = 'Win10_19042_20H2/x64/System32';
 const FILENAME_RIGHT_DEFAULT    = 'ntoskrnl.exe';
 const TYPE_RIGHT_DEFAULT        = 'Standalone/_KPCR';
 
-const URL_PREFIX = `https://raw.githubusercontent.com/ntdiff/headers/master`;
+const URL_PREFIX = `https://raw.githubusercontent.com/Windiff/headers/master`;
 
 class AppModel {
     @observable public versionLeft: string = VERSION_LEFT_DEFAULT;
